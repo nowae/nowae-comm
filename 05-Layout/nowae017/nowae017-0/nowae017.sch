@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:nowae017-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -428,11 +427,88 @@ F 3 "" H 9150 6050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9450 6150 9300 6150
-Wire Bus Line
-	12550 7450 12550 8300
-Wire Bus Line
-	11350 7450 12550 7450
 Connection ~ 9300 6150
 Wire Wire Line
 	9300 6150 9300 6050
+$Comp
+L nowae-logic:SN74AVC4T774RGY U?
+U 1 1 5BBD4739
+P 7250 3650
+F 0 "U?" H 7600 3150 60  0000 C CNN
+F 1 "SN74AVC4T774RGY" H 7950 3050 60  0000 C CNN
+F 2 "QFN:VQFN16_4.0x3.5_0.5" H 7200 1750 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf" H 7250 1650 60  0001 C CNN
+F 4 "Texas Instruments" H 7200 2450 60  0001 C CNN "Manufacturer"
+F 5 "SN74AVC4T774RGY" H 7200 2350 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 7200 2250 60  0001 C CNN "Distributor"
+F 7 "2496536" H 7200 2150 60  0001 C CNN "Distributor Code"
+F 8 "0.881" H 7200 2050 60  0001 C CNN "Price €"
+F 9 "Mouser Electronic Inc" H 7200 1950 60  0001 C CNN "Distributor2"
+F 10 "595-SN74AVC4T774RGYR" H 7200 1850 60  0001 C CNN "Distributor2 Code"
+	1    7250 3650
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8400 3900 8500 3800
+Wire Wire Line
+	8400 3900 7700 3900
+Wire Wire Line
+	7700 3700 8400 3700
+Wire Wire Line
+	7700 3500 8400 3500
+Wire Wire Line
+	7700 3300 8400 3300
+Entry Wire Line
+	8400 3300 8500 3200
+Entry Wire Line
+	8400 3500 8500 3400
+Entry Wire Line
+	8400 3700 8500 3600
+NoConn ~ 9450 4850
+NoConn ~ 9450 4750
+NoConn ~ 9450 4650
+Entry Wire Line
+	8500 4950 8600 5050
+Entry Wire Line
+	8500 5050 8600 5150
+Entry Wire Line
+	8500 5150 8600 5250
+Entry Wire Line
+	8500 5250 8600 5350
+Wire Wire Line
+	8600 5350 9450 5350
+Wire Wire Line
+	9450 5250 8600 5250
+Wire Wire Line
+	8600 5150 9450 5150
+Wire Wire Line
+	9450 5050 8600 5050
+Text Label 8700 5050 0    50   ~ 0
+UART_RTS
+Text Label 8700 5150 0    50   ~ 0
+UART_CTS
+Text Label 8700 5250 0    50   ~ 0
+UART_TXD
+Text Label 8700 5350 0    50   ~ 0
+UART_RXD
+Text Label 8300 3900 2    50   ~ 0
+UART_RTS
+Text Label 8300 3700 2    50   ~ 0
+UART_CTS
+Text Label 8300 3500 2    50   ~ 0
+UART_TXD
+Text Label 8300 3300 2    50   ~ 0
+UART_RXD
+Wire Wire Line
+	9450 5850 8600 5850
+Entry Wire Line
+	8500 5750 8600 5850
+Wire Bus Line
+	11350 7450 12550 7450
+Wire Bus Line
+	12550 7450 12550 8300
+Wire Bus Line
+	8500 3100 8500 5850
+Text Label 8700 5850 0    50   ~ 0
+SARA_RESET
 $EndSCHEMATC
