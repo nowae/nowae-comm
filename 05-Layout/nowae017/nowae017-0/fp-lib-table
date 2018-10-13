@@ -50,4 +50,5 @@
   (lib (name TRACOPOWER)(type KiCad)(uri ${KINOWAEMOD}/TRACOPOWER.pretty)(options "")(descr ""))
   (lib (name WIFI)(type KiCad)(uri ${KINOWAEMOD}/WIFI.pretty)(options "")(descr ""))
   (lib (name XPPOWER)(type KiCad)(uri ${KINOWAEMOD}/XPPOWER.pretty)(options "")(descr ""))
+  (lib (name CONNECTOR_RADIO)(type KiCad)(uri ${KINOWAEMOD}/CONNECTOR_RADIO.pretty)(options "")(descr "Radio frequency connector"))
 )
