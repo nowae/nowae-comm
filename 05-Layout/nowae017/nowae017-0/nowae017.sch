@@ -1079,14 +1079,453 @@ Wire Wire Line
 Connection ~ 13650 6750
 Wire Wire Line
 	14400 5950 14400 6750
+$Comp
+L nowae-connector:CONN_8X1 P?
+U 1 1 5BC51FE0
+P 2350 2000
+F 0 "P?" H 2300 2450 60  0000 L CNN
+F 1 "CONN_8X1" H 2150 1550 60  0000 L CNN
+F 2 "" H 2725 2000 60  0000 C CNN
+F 3 "" H 2725 2000 60  0000 C CNN
+F 4 "-" H 2350 1650 60  0001 C CNN "Manufacturer"
+F 5 "-" H 2350 1550 60  0001 C CNN "Part Number"
+F 6 "-" H 2350 1450 60  0001 C CNN "Distributor"
+F 7 "-" H 2350 1350 60  0001 C CNN "Distributor Code"
+F 8 "-" H 2350 1250 60  0001 C CNN "Price €"
+F 9 "-" H 2350 1150 60  0001 C CNN "Distributor2"
+F 10 "-" H 2350 1050 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 2350 950 60  0001 C CNN "Distributor3"
+F 12 "-" H 2350 850 60  0001 C CNN "Distributor3 Code"
+	1    2350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:CONN_8X1 P?
+U 1 1 5BC520F6
+P 3600 2000
+F 0 "P?" H 3494 2597 60  0000 C CNN
+F 1 "CONN_8X1" H 3494 2491 60  0000 C CNN
+F 2 "" H 3975 2000 60  0000 C CNN
+F 3 "" H 3975 2000 60  0000 C CNN
+F 4 "-" H 3600 1650 60  0001 C CNN "Manufacturer"
+F 5 "-" H 3600 1550 60  0001 C CNN "Part Number"
+F 6 "-" H 3600 1450 60  0001 C CNN "Distributor"
+F 7 "-" H 3600 1350 60  0001 C CNN "Distributor Code"
+F 8 "-" H 3600 1250 60  0001 C CNN "Price €"
+F 9 "-" H 3600 1150 60  0001 C CNN "Distributor2"
+F 10 "-" H 3600 1050 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 3600 950 60  0001 C CNN "Distributor3"
+F 12 "-" H 3600 850 60  0001 C CNN "Distributor3 Code"
+	1    3600 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1500 1900 1650
+Wire Wire Line
+	1900 1650 2100 1650
+Wire Wire Line
+	2100 1750 1800 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5BC6E90D
+P 1800 1750
+F 0 "#PWR?" H 1800 1750 30  0001 C CNN
+F 1 "GND" H 1800 1750 30  0001 C CNN
+F 2 "" H 1800 1750 60  0000 C CNN
+F 3 "" H 1800 1750 60  0000 C CNN
+	1    1800 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1750 4150 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5BC6E9DF
+P 4150 1750
+F 0 "#PWR?" H 4150 1750 30  0001 C CNN
+F 1 "GND" H 4150 1750 30  0001 C CNN
+F 2 "" H 4150 1750 60  0000 C CNN
+F 3 "" H 4150 1750 60  0000 C CNN
+	1    4150 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1850 950  1850
+Text Label 1000 1850 0    50   ~ 0
+UART_RXD_EXT
+Text Label 1000 1950 0    50   ~ 0
+UART_TXD_EXT
+Text Label 1000 2050 0    50   ~ 0
+UART_CTS_EXT
+Text Label 1000 2150 0    50   ~ 0
+UART_RTS_EXT
+Wire Wire Line
+	950  1950 2100 1950
+Wire Wire Line
+	950  2050 2100 2050
+Wire Wire Line
+	950  2150 2100 2150
+$Comp
+L power:+VIN #PWR?
+U 1 1 5BCD33C9
+P 1900 1500
+F 0 "#PWR?" H 1900 1425 30  0001 C CNN
+F 1 "+VIN" H 1900 1633 30  0000 C CNN
+F 2 "" H 1900 1500 60  0000 C CNN
+F 3 "" H 1900 1500 60  0000 C CNN
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+Text Label 1000 2250 0    50   ~ 0
+I2C_SDA_EXT
+Text Label 1000 2350 0    50   ~ 0
+I2C_SCL_EXT
+Wire Wire Line
+	950  2250 1750 2250
+Wire Wire Line
+	950  2350 1550 2350
+$Comp
+L nowae-resistor:RESISTOR R?
+U 1 1 5BCE8893
+P 1550 2700
+F 0 "R?" H 1600 2700 50  0000 L CNN
+F 1 "4k7" V 1550 2700 50  0000 C CNN
+F 2 "" V 1480 2700 30  0001 C CNN
+F 3 "" H 1550 2700 30  0001 C CNN
+F 4 "-" H 1550 2350 60  0001 C CNN "Manufacturer"
+F 5 "-" H 1550 2250 60  0001 C CNN "Part Number"
+F 6 "-" H 1550 2150 60  0001 C CNN "Distributor"
+F 7 "-" H 1550 2050 60  0001 C CNN "Distributor Code"
+F 8 "-" H 1550 1950 60  0001 C CNN "Price €"
+F 9 "-" H 1550 1850 60  0001 C CNN "Distributor2"
+F 10 "-" H 1550 1750 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 1550 1650 60  0001 C CNN "Distributor3"
+F 12 "-" H 1550 1550 60  0001 C CNN "Distributor3 Code"
+	1    1550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-resistor:RESISTOR R?
+U 1 1 5BCE8B68
+P 1750 2700
+F 0 "R?" H 1800 2700 50  0000 L CNN
+F 1 "4k7" V 1750 2700 50  0000 C CNN
+F 2 "" V 1680 2700 30  0001 C CNN
+F 3 "" H 1750 2700 30  0001 C CNN
+F 4 "-" H 1750 2350 60  0001 C CNN "Manufacturer"
+F 5 "-" H 1750 2250 60  0001 C CNN "Part Number"
+F 6 "-" H 1750 2150 60  0001 C CNN "Distributor"
+F 7 "-" H 1750 2050 60  0001 C CNN "Distributor Code"
+F 8 "-" H 1750 1950 60  0001 C CNN "Price €"
+F 9 "-" H 1750 1850 60  0001 C CNN "Distributor2"
+F 10 "-" H 1750 1750 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 1750 1650 60  0001 C CNN "Distributor3"
+F 12 "-" H 1750 1550 60  0001 C CNN "Distributor3 Code"
+	1    1750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2450 1550 2350
+Connection ~ 1550 2350
+Wire Wire Line
+	1550 2350 2100 2350
+Wire Wire Line
+	1750 2450 1750 2250
+Connection ~ 1750 2250
+Wire Wire Line
+	1750 2250 2100 2250
+Wire Wire Line
+	1550 2950 1550 3000
+Wire Wire Line
+	1550 3000 1750 3000
+Wire Wire Line
+	1750 3000 1750 2950
+Wire Wire Line
+	1750 3000 1750 3100
+Connection ~ 1750 3000
+Entry Wire Line
+	8400 6650 8500 6550
+Entry Wire Line
+	8400 6550 8500 6450
+Text Label 8350 6650 2    50   ~ 0
+I2C_SDA
+Text Label 8350 6550 2    50   ~ 0
+I2C_SCL
+Wire Wire Line
+	7250 7100 7250 7150
+$Comp
+L power:GND #PWR?
+U 1 1 5BD8E0EC
+P 7250 7150
+F 0 "#PWR?" H 7250 7150 30  0001 C CNN
+F 1 "GND" H 7250 7150 30  0001 C CNN
+F 2 "" H 7250 7150 60  0000 C CNN
+F 3 "" H 7250 7150 60  0000 C CNN
+	1    7250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-capacitor:CAPACITOR C?
+U 1 1 5BD9A243
+P 8050 6200
+F 0 "C?" H 8165 6246 50  0000 L CNN
+F 1 "100n" H 8165 6155 50  0000 L CNN
+F 2 "" H 8088 6050 30  0001 C CNN
+F 3 "" H 8050 6300 60  0001 C CNN
+F 4 "-" H 8050 5850 60  0001 C CNN "Manufacturer"
+F 5 "-" H 8050 5750 60  0001 C CNN "Part Number"
+F 6 "-" H 8050 5650 60  0001 C CNN "Distributor"
+F 7 "-" H 8050 5550 60  0001 C CNN "Distributor Code"
+F 8 "-" H 8050 5450 60  0001 C CNN "Price €"
+F 9 "-" H 8050 5350 60  0001 C CNN "Distributor2"
+F 10 "-" H 8050 5250 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 8050 5150 60  0001 C CNN "Distributor3"
+F 12 "-" H 8050 5050 60  0001 C CNN "Distributor3 Code"
+	1    8050 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 6200 7800 6200
+Wire Wire Line
+	7800 6200 7800 6100
+$Comp
+L power:+1.8V #PWR?
+U 1 1 5BDCBE2B
+P 7800 6100
+F 0 "#PWR?" H 7800 6025 30  0001 C CNN
+F 1 "+1.8V" H 7800 6200 30  0000 C CNN
+F 2 "" H 7800 6100 60  0000 C CNN
+F 3 "" H 7800 6100 60  0000 C CNN
+	1    7800 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 6550 8000 6550
+Wire Wire Line
+	7750 6650 7800 6650
+$Comp
+L nowae-logic:PCA9306DC U?
+U 1 1 5BE26947
+P 7250 6550
+F 0 "U?" H 7250 7087 60  0000 C CNN
+F 1 "PCA9306DC" H 7250 6981 60  0000 C CNN
+F 2 "SOP:VSSOP8_2.4x2.1_0.5" H 7250 5150 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 7250 5000 60  0001 C CNN
+F 4 "NXP Semiconductors" H 7250 5850 60  0001 C CNN "Manufacturer"
+F 5 "PCA9306DC" H 7250 5750 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 7250 5650 60  0001 C CNN "Distributor"
+F 7 "2400482" H 7250 5550 60  0001 C CNN "Distributor Code"
+F 8 "0.663" H 7250 5450 60  0001 C CNN "Price €"
+F 9 "RS Components S.r.l." H 7250 5350 60  0001 C CNN "Distributor2"
+F 10 "510-746" H 7250 5250 60  0001 C CNN "Distributor2 Code"
+	1    7250 6550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 6400 7800 6400
+Wire Wire Line
+	7800 6400 7800 6200
+Connection ~ 7800 6200
+Wire Wire Line
+	8250 6200 8300 6200
+$Comp
+L power:GND #PWR?
+U 1 1 5BE3FEE8
+P 8300 6200
+F 0 "#PWR?" H 8300 6200 30  0001 C CNN
+F 1 "GND" H 8300 6200 30  0001 C CNN
+F 2 "" H 8300 6200 60  0000 C CNN
+F 3 "" H 8300 6200 60  0000 C CNN
+	1    8300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L nowae-capacitor:CAPACITOR C?
+U 1 1 5BE4CC34
+P 6400 6000
+F 0 "C?" H 6515 6046 50  0000 L CNN
+F 1 "100n" H 6515 5955 50  0000 L CNN
+F 2 "" H 6438 5850 30  0001 C CNN
+F 3 "" H 6400 6100 60  0001 C CNN
+F 4 "-" H 6400 5650 60  0001 C CNN "Manufacturer"
+F 5 "-" H 6400 5550 60  0001 C CNN "Part Number"
+F 6 "-" H 6400 5450 60  0001 C CNN "Distributor"
+F 7 "-" H 6400 5350 60  0001 C CNN "Distributor Code"
+F 8 "-" H 6400 5250 60  0001 C CNN "Price €"
+F 9 "-" H 6400 5150 60  0001 C CNN "Distributor2"
+F 10 "-" H 6400 5050 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 6400 4950 60  0001 C CNN "Distributor3"
+F 12 "-" H 6400 4850 60  0001 C CNN "Distributor3 Code"
+	1    6400 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE4CC45
+P 6150 6000
+F 0 "#PWR?" H 6150 6000 30  0001 C CNN
+F 1 "GND" H 6150 6000 30  0001 C CNN
+F 2 "" H 6150 6000 60  0000 C CNN
+F 3 "" H 6150 6000 60  0000 C CNN
+	1    6150 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 6400 6750 6400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BEE072D
+P 6100 6300
+F 0 "#PWR?" H 6100 6225 30  0001 C CNN
+F 1 "+3.3V" H 6100 6400 30  0000 C CNN
+F 2 "" H 6100 6300 60  0000 C CNN
+F 3 "" H 6100 6300 60  0000 C CNN
+	1    6100 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L nowae-resistor:RESISTOR R?
+U 1 1 5BEEEA06
+P 6400 6300
+F 0 "R?" H 6250 6300 50  0000 L CNN
+F 1 "100k" V 6400 6300 50  0000 C CNN
+F 2 "" V 6330 6300 30  0001 C CNN
+F 3 "" H 6400 6300 30  0001 C CNN
+F 4 "-" H 6400 5950 60  0001 C CNN "Manufacturer"
+F 5 "-" H 6400 5850 60  0001 C CNN "Part Number"
+F 6 "-" H 6400 5750 60  0001 C CNN "Distributor"
+F 7 "-" H 6400 5650 60  0001 C CNN "Distributor Code"
+F 8 "-" H 6400 5550 60  0001 C CNN "Price €"
+F 9 "-" H 6400 5450 60  0001 C CNN "Distributor2"
+F 10 "-" H 6400 5350 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 6400 5250 60  0001 C CNN "Distributor3"
+F 12 "-" H 6400 5150 60  0001 C CNN "Distributor3 Code"
+	1    6400 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 6300 6700 6300
+Wire Wire Line
+	6700 6400 6700 6300
+Connection ~ 6700 6300
+Wire Wire Line
+	6700 6300 6750 6300
+Wire Wire Line
+	6700 6000 6600 6000
+Wire Wire Line
+	6700 6000 6700 6300
+Wire Wire Line
+	6150 6000 6200 6000
+Wire Wire Line
+	6100 6300 6150 6300
+$Comp
+L nowae-resistor:RESISTOR R?
+U 1 1 5C00220E
+P 7800 7000
+F 0 "R?" H 7850 7000 50  0000 L CNN
+F 1 "4k7" V 7800 7000 50  0000 C CNN
+F 2 "" V 7730 7000 30  0001 C CNN
+F 3 "" H 7800 7000 30  0001 C CNN
+F 4 "-" H 7800 6650 60  0001 C CNN "Manufacturer"
+F 5 "-" H 7800 6550 60  0001 C CNN "Part Number"
+F 6 "-" H 7800 6450 60  0001 C CNN "Distributor"
+F 7 "-" H 7800 6350 60  0001 C CNN "Distributor Code"
+F 8 "-" H 7800 6250 60  0001 C CNN "Price €"
+F 9 "-" H 7800 6150 60  0001 C CNN "Distributor2"
+F 10 "-" H 7800 6050 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 7800 5950 60  0001 C CNN "Distributor3"
+F 12 "-" H 7800 5850 60  0001 C CNN "Distributor3 Code"
+	1    7800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-resistor:RESISTOR R?
+U 1 1 5C00221D
+P 8000 7000
+F 0 "R?" H 8050 7000 50  0000 L CNN
+F 1 "4k7" V 8000 7000 50  0000 C CNN
+F 2 "" V 7930 7000 30  0001 C CNN
+F 3 "" H 8000 7000 30  0001 C CNN
+F 4 "-" H 8000 6650 60  0001 C CNN "Manufacturer"
+F 5 "-" H 8000 6550 60  0001 C CNN "Part Number"
+F 6 "-" H 8000 6450 60  0001 C CNN "Distributor"
+F 7 "-" H 8000 6350 60  0001 C CNN "Distributor Code"
+F 8 "-" H 8000 6250 60  0001 C CNN "Price €"
+F 9 "-" H 8000 6150 60  0001 C CNN "Distributor2"
+F 10 "-" H 8000 6050 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 8000 5950 60  0001 C CNN "Distributor3"
+F 12 "-" H 8000 5850 60  0001 C CNN "Distributor3 Code"
+	1    8000 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6750 7800 6650
+Wire Wire Line
+	8000 6750 8000 6550
+Wire Wire Line
+	7800 7250 7800 7300
+Wire Wire Line
+	7800 7300 8000 7300
+Wire Wire Line
+	8000 7300 8000 7250
+Wire Wire Line
+	8000 7300 8000 7400
+Connection ~ 8000 7300
+Connection ~ 7800 6650
+Wire Wire Line
+	7800 6650 8400 6650
+Connection ~ 8000 6550
+Wire Wire Line
+	8000 6550 8400 6550
+$Comp
+L power:+1.8V #PWR?
+U 1 1 5C02024E
+P 8000 7400
+F 0 "#PWR?" H 8000 7325 30  0001 C CNN
+F 1 "+1.8V" H 8000 7500 30  0000 C CNN
+F 2 "" H 8000 7400 60  0000 C CNN
+F 3 "" H 8000 7400 60  0000 C CNN
+	1    8000 7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 6550 5850 6550
+Text Label 5900 6550 0    50   ~ 0
+I2C_SCL_EXT
+Wire Wire Line
+	6750 6650 5850 6650
+Text Label 5900 6650 0    50   ~ 0
+I2C_SDA_EXT
+Entry Wire Line
+	5750 6550 5850 6650
+Entry Wire Line
+	5750 6450 5850 6550
+Wire Bus Line
+	5750 1050 850  1050
+Entry Wire Line
+	850  2250 950  2350
+Entry Wire Line
+	850  2150 950  2250
+Entry Wire Line
+	850  2050 950  2150
+Entry Wire Line
+	850  1950 950  2050
+Entry Wire Line
+	850  1850 950  1950
+Entry Wire Line
+	850  1750 950  1850
 Wire Bus Line
 	8500 3200 11500 3200
+Wire Bus Line
+	5750 1050 5750 6650
 Wire Bus Line
 	11350 7700 12550 7700
 Wire Bus Line
 	8500 7700 11050 7700
 Wire Bus Line
 	12550 7700 12550 9600
+Wire Bus Line
+	850  1050 850  2350
 Wire Bus Line
 	8500 3200 8500 7700
 $EndSCHEMATC
