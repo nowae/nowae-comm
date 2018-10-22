@@ -6,12 +6,12 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Small U-Blox SARA-Series Module Adapter"
-Date ""
-Rev ""
+Date "2018-10-22"
+Rev "0-D"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment1 "M.Giammarini"
+Comment2 "M.Contigiani"
+Comment3 "N.Orlandini"
 Comment4 ""
 $EndDescr
 Wire Wire Line
@@ -160,26 +160,6 @@ Wire Wire Line
 Connection ~ 11050 3500
 Wire Wire Line
 	11050 3500 11150 3500
-$Comp
-L nowae-connector:NANOSIM-WURTH-693043020611 P?
-U 1 1 5BBD410B
-P 13450 8350
-F 0 "P?" H 13627 8408 60  0000 L CNN
-F 1 "NANOSIM" H 13627 8302 60  0000 L CNN
-F 2 "CONNECTOR:NANOSIM-WURTH-693043020611" H 13450 6850 60  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/693043020611.pdf" H 13450 7850 60  0001 C CNN
-F 4 "Wurth Elektronik GmbH" H 13450 7750 60  0001 C CNN "Manufacturer"
-F 5 "693043020611" H 13450 7650 60  0001 C CNN "Part Number"
-F 6 "Wurth Elektronik GmbH" H 13450 7550 60  0001 C CNN "Distributor"
-F 7 "693043020611" H 13450 7450 60  0001 C CNN "Distributor Code"
-F 8 "1.76" H 13450 7350 60  0001 C CNN "Price €"
-F 9 "Farnell Italia S.r.l." H 13450 7250 60  0001 C CNN "Distributor2"
-F 10 "2470827 " H 13450 7150 60  0001 C CNN "Distributor2 Code"
-F 11 "-" H 13450 7050 60  0001 C CNN "Distributor3"
-F 12 "-" H 13450 6950 60  0001 C CNN "Distributor3 Code"
-	1    13450 8350
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	11250 7600 11350 7700
 Entry Wire Line
@@ -657,42 +637,6 @@ Wire Wire Line
 Connection ~ 9350 5450
 Wire Wire Line
 	9350 5450 9350 6050
-$Comp
-L nowae-transistor:PTDC114EU Q?
-U 1 1 5BC12D83
-P 10550 2350
-F 0 "Q?" H 10777 2403 60  0000 L CNN
-F 1 "PTDC114EU" H 10777 2297 60  0000 L CNN
-F 2 "SOT:SOT323" H 10550 1325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PDTC114E_SER.pdf" H 10550 1925 50  0001 C CNN
-F 4 "Nexperia Semiconductor" H 10550 1825 60  0001 C CNN "Manufacturer"
-F 5 "PTDC114EU" H 10550 1725 60  0001 C CNN "Part Number"
-F 6 "Farnell Italia S.r.l." H 10550 1625 60  0001 C CNN "Distributor"
-F 7 "8737045" H 10550 1525 60  0001 C CNN "Distributor Code"
-F 8 "0.155" H 10550 1425 60  0001 C CNN "Price €"
-F 9 "RS Components S.p.a." H 10550 1225 50  0001 C CNN "Distributor2"
-F 10 "518-2725" H 10550 1125 50  0001 C CNN "Distributor2 Code"
-	1    10550 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L nowae-transistor:PTDC114EU Q?
-U 1 1 5BC12E4F
-P 12050 2350
-F 0 "Q?" H 12277 2403 60  0000 L CNN
-F 1 "PTDC114EU" H 12277 2297 60  0000 L CNN
-F 2 "SOT:SOT323" H 12050 1325 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PDTC114E_SER.pdf" H 12050 1925 50  0001 C CNN
-F 4 "Nexperia Semiconductor" H 12050 1825 60  0001 C CNN "Manufacturer"
-F 5 "PTDC114EU" H 12050 1725 60  0001 C CNN "Part Number"
-F 6 "Farnell Italia S.r.l." H 12050 1625 60  0001 C CNN "Distributor"
-F 7 "8737045" H 12050 1525 60  0001 C CNN "Distributor Code"
-F 8 "0.155" H 12050 1425 60  0001 C CNN "Price €"
-F 9 "RS Components S.p.a." H 12050 1225 50  0001 C CNN "Distributor2"
-F 10 "518-2725" H 12050 1125 50  0001 C CNN "Distributor2 Code"
-	1    12050 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10650 2650 10650 2750
 Wire Wire Line
@@ -735,26 +679,6 @@ Text Label 11600 2400 3    50   ~ 0
 SARA_STS_LED
 Text Label 10100 2400 3    50   ~ 0
 SARA_TX_LED
-$Comp
-L nowae-connector:ESIM-THINGSMOBILE P?
-U 1 1 5BC74F0F
-P 13450 9500
-F 0 "P?" H 13628 9558 60  0000 L CNN
-F 1 "ESIM" H 13628 9452 60  0000 L CNN
-F 2 "CONNECTOR:ESIM-GENERIC" H 13450 8050 60  0001 C CNN
-F 3 "https://www.thingsmobile.com" H 13450 9050 60  0001 C CNN
-F 4 "Things Mobile Srl" H 13450 8950 60  0001 C CNN "Manufacturer"
-F 5 "-" H 13450 8850 60  0001 C CNN "Part Number"
-F 6 "Things Mobile Srl" H 13450 8750 60  0001 C CNN "Distributor"
-F 7 "-" H 13450 8650 60  0001 C CNN "Distributor Code"
-F 8 "3.00" H 13450 8550 60  0001 C CNN "Price €"
-F 9 "-" H 13450 8450 60  0001 C CNN "Distributor2"
-F 10 "-" H 13450 8350 60  0001 C CNN "Distributor2 Code"
-F 11 "-" H 13450 8250 60  0001 C CNN "Distributor3"
-F 12 "-" H 13450 8150 60  0001 C CNN "Distributor3 Code"
-	1    13450 9500
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	12550 9600 12650 9700
 Entry Wire Line
@@ -1182,24 +1106,6 @@ Wire Wire Line
 	7750 6550 8000 6550
 Wire Wire Line
 	7750 6650 7800 6650
-$Comp
-L nowae-logic:PCA9306DC U?
-U 1 1 5BE26947
-P 7250 6550
-F 0 "U?" H 7250 7087 60  0000 C CNN
-F 1 "PCA9306DC" H 7250 6981 60  0000 C CNN
-F 2 "SOP:VSSOP8_2.4x2.1_0.5" H 7250 5150 60  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 7250 5000 60  0001 C CNN
-F 4 "NXP Semiconductors" H 7250 5850 60  0001 C CNN "Manufacturer"
-F 5 "PCA9306DC" H 7250 5750 60  0001 C CNN "Part Number"
-F 6 "Farnell Italia S.r.l." H 7250 5650 60  0001 C CNN "Distributor"
-F 7 "2400482" H 7250 5550 60  0001 C CNN "Distributor Code"
-F 8 "0.663" H 7250 5450 60  0001 C CNN "Price €"
-F 9 "RS Components S.r.l." H 7250 5350 60  0001 C CNN "Distributor2"
-F 10 "510-746" H 7250 5250 60  0001 C CNN "Distributor2 Code"
-	1    7250 6550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 6400 7800 6400
 Wire Wire Line
@@ -1472,46 +1378,6 @@ Entry Wire Line
 	8400 4400 8500 4300
 Entry Wire Line
 	8400 4500 8500 4400
-$Comp
-L nowae-connector:CONN_9X1 P?
-U 1 1 5BEAF68C
-P 2350 2050
-F 0 "P?" H 2427 2108 60  0000 L CNN
-F 1 "CONN_9X1" H 2427 2002 60  0000 L CNN
-F 2 "" H 2725 2050 60  0000 C CNN
-F 3 "" H 2725 2050 60  0000 C CNN
-F 4 "-" H 2350 1750 60  0001 C CNN "Manufacturer"
-F 5 "-" H 2350 1650 60  0001 C CNN "Part Number"
-F 6 "-" H 2350 1550 60  0001 C CNN "Distributor"
-F 7 "-" H 2350 1400 60  0001 C CNN "Distributor Code"
-F 8 "-" H 2350 1300 60  0001 C CNN "Price €"
-F 9 "-" H 2350 1200 60  0001 C CNN "Distributor2"
-F 10 "-" H 2350 1100 60  0001 C CNN "Distributor2 Code"
-F 11 "-" H 2350 1000 60  0001 C CNN "Distributor3"
-F 12 "-" H 2350 900 60  0001 C CNN "Distributor3 Code"
-	1    2350 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L nowae-connector:CONN_9X1 P?
-U 1 1 5BEAF760
-P 4250 2050
-F 0 "P?" H 4450 2100 60  0000 C CNN
-F 1 "CONN_9X1" H 4600 2000 60  0000 C CNN
-F 2 "" H 4625 2050 60  0000 C CNN
-F 3 "" H 4625 2050 60  0000 C CNN
-F 4 "-" H 4250 1750 60  0001 C CNN "Manufacturer"
-F 5 "-" H 4250 1650 60  0001 C CNN "Part Number"
-F 6 "-" H 4250 1550 60  0001 C CNN "Distributor"
-F 7 "-" H 4250 1400 60  0001 C CNN "Distributor Code"
-F 8 "-" H 4250 1300 60  0001 C CNN "Price €"
-F 9 "-" H 4250 1200 60  0001 C CNN "Distributor2"
-F 10 "-" H 4250 1100 60  0001 C CNN "Distributor2 Code"
-F 11 "-" H 4250 1000 60  0001 C CNN "Distributor3"
-F 12 "-" H 4250 900 60  0001 C CNN "Distributor3 Code"
-	1    4250 2050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 1850 4500 1850
 Entry Wire Line
@@ -3338,33 +3204,31 @@ Wire Wire Line
 $Comp
 L nowae-capacitor:CAPACITOR C?
 U 1 1 5C10215F
-P 4650 5450
-F 0 "C?" H 4765 5496 50  0000 L CNN
-F 1 "4u7" H 4765 5405 50  0000 L CNN
-F 2 "CAPACITOR:CAPACITOR-0805" H 4688 5300 30  0001 C CNN
-F 3 "" H 4650 5550 60  0001 C CNN
-F 4 "-" H 4650 5100 60  0001 C CNN "Manufacturer"
-F 5 "-" H 4650 5000 60  0001 C CNN "Part Number"
-F 6 "-" H 4650 4900 60  0001 C CNN "Distributor"
-F 7 "-" H 4650 4800 60  0001 C CNN "Distributor Code"
-F 8 "-" H 4650 4700 60  0001 C CNN "Price €"
-F 9 "-" H 4650 4600 60  0001 C CNN "Distributor2"
-F 10 "-" H 4650 4500 60  0001 C CNN "Distributor2 Code"
-F 11 "-" H 4650 4400 60  0001 C CNN "Distributor3"
-F 12 "-" H 4650 4300 60  0001 C CNN "Distributor3 Code"
-	1    4650 5450
+P 4900 5450
+F 0 "C?" H 5015 5496 50  0000 L CNN
+F 1 "4u7" H 5015 5405 50  0000 L CNN
+F 2 "CAPACITOR:CAPACITOR-0805" H 4938 5300 30  0001 C CNN
+F 3 "" H 4900 5550 60  0001 C CNN
+F 4 "-" H 4900 5100 60  0001 C CNN "Manufacturer"
+F 5 "-" H 4900 5000 60  0001 C CNN "Part Number"
+F 6 "-" H 4900 4900 60  0001 C CNN "Distributor"
+F 7 "-" H 4900 4800 60  0001 C CNN "Distributor Code"
+F 8 "-" H 4900 4700 60  0001 C CNN "Price €"
+F 9 "-" H 4900 4600 60  0001 C CNN "Distributor2"
+F 10 "-" H 4900 4500 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 4900 4400 60  0001 C CNN "Distributor3"
+F 12 "-" H 4900 4300 60  0001 C CNN "Distributor3 Code"
+	1    4900 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3250 4800 3750 4800
 Wire Wire Line
-	4650 4800 4650 5250
-Wire Wire Line
 	2100 5650 2100 6100
 Wire Wire Line
 	2100 6100 3350 6100
 Wire Wire Line
-	4650 6100 4650 5650
+	4900 6100 4900 5650
 Wire Wire Line
 	3250 5000 3350 5000
 Wire Wire Line
@@ -3455,24 +3319,6 @@ Wire Notes Line
 Text Notes 2950 1450 0    59   ~ 0
 External Pads
 $Comp
-L nowae-regulator:TPS73501DRV U?
-U 1 1 5BE3EDD6
-P 2900 4900
-F 0 "U?" H 2900 5287 60  0000 C CNN
-F 1 "TPS73501DRV" H 2900 5181 60  0000 C CNN
-F 2 "SON:WSON6_2.0x2.0_0.65_6+1" H 2900 3900 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps735.pdf" H 2900 4500 60  0001 C CNN
-F 4 "Texas Instruments" H 2900 4400 60  0001 C CNN "Manufacturer"
-F 5 "TPS73501DRV" H 2900 4300 60  0001 C CNN "Part Number"
-F 6 "Mouser Electronics Inc." H 2900 4200 60  0001 C CNN "Distributor"
-F 7 "595-TPS73501DRVR" H 2900 4100 60  0001 C CNN "Distributor Code"
-F 8 "1.200" H 2900 4000 60  0001 C CNN "Price €"
-F 9 "RS Components S.p.a." H 2900 3800 59  0001 C CNN "Distributor2"
-F 10 "817-5398" H 2900 3700 59  0001 C CNN "Distributor2 Code"
-	1    2900 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L nowae-resistor:RESISTOR R?
 U 1 1 5BE6FA5B
 P 3750 5150
@@ -3532,7 +3378,7 @@ Wire Wire Line
 	3750 6000 3750 6100
 Connection ~ 3750 6100
 Wire Wire Line
-	3750 6100 4650 6100
+	3750 6100 4900 6100
 $Comp
 L nowae-capacitor:CAPACITOR C?
 U 1 1 5BF68587
@@ -3559,23 +3405,17 @@ Wire Wire Line
 	4150 5450 4150 5350
 Wire Wire Line
 	4150 4950 4150 4800
-Connection ~ 4150 4800
-Wire Wire Line
-	4150 4800 4650 4800
 $Comp
 L power:+3.8V #PWR?
 U 1 1 5C008EEF
-P 4650 4650
-F 0 "#PWR?" H 4650 4575 30  0001 C CNN
-F 1 "+3.8V" H 4650 4783 30  0000 C CNN
-F 2 "" H 4650 4650 60  0000 C CNN
-F 3 "" H 4650 4650 60  0000 C CNN
-	1    4650 4650
+P 4900 4650
+F 0 "#PWR?" H 4900 4575 30  0001 C CNN
+F 1 "+3.8V" H 4900 4783 30  0000 C CNN
+F 2 "" H 4900 4650 60  0000 C CNN
+F 3 "" H 4900 4650 60  0000 C CNN
+	1    4900 4650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 4650 4650 4800
-Connection ~ 4650 4800
 $Comp
 L power:+3.8V #PWR?
 U 1 1 5C059743
@@ -3646,6 +3486,185 @@ F 3 "" H 6100 6300 60  0000 C CNN
 	1    6100 6300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L nowae-logic:PCA9306DC U?
+U 1 1 5BD318FB
+P 7250 6550
+F 0 "U?" H 7250 7065 50  0000 C CNN
+F 1 "PCA9306DC" H 7250 6974 50  0000 C CNN
+F 2 "SOP:VSSOP8_2.4x2.1_0.5" H 7250 5150 60  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf" H 7250 5000 60  0001 C CNN
+F 4 "NXP Semiconductors" H 7250 5850 60  0001 C CNN "Manufacturer"
+F 5 "PCA9306DC" H 7250 5750 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 7250 5650 60  0001 C CNN "Distributor"
+F 7 "2400482" H 7250 5550 60  0001 C CNN "Distributor Code"
+F 8 "0.663" H 7250 5450 60  0001 C CNN "Price €"
+F 9 "RS Components S.r.l." H 7250 5350 60  0001 C CNN "Distributor2"
+F 10 "510-746" H 7250 5250 60  0001 C CNN "Distributor2 Code"
+	1    7250 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L nowae-regulator:TPS73501DRV U?
+U 1 1 5BD31E44
+P 2900 4900
+F 0 "U?" H 2900 5265 50  0000 C CNN
+F 1 "TPS73501DRV" H 2900 5174 50  0000 C CNN
+F 2 "SON:WSON6_2.0x2.0_0.65_6+1" H 2900 3900 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps735.pdf" H 2900 4500 60  0001 C CNN
+F 4 "Texas Instruments" H 2900 4400 60  0001 C CNN "Manufacturer"
+F 5 "TPS73501DRV" H 2900 4300 60  0001 C CNN "Part Number"
+F 6 "Mouser Electronics Inc." H 2900 4200 60  0001 C CNN "Distributor"
+F 7 "595-TPS73501DRVR" H 2900 4100 60  0001 C CNN "Distributor Code"
+F 8 "1.200" H 2900 4000 60  0001 C CNN "Price €"
+F 9 "RS Components S.p.a." H 2900 3800 59  0001 C CNN "Distributor2"
+F 10 "817-5398" H 2900 3700 59  0001 C CNN "Distributor2 Code"
+	1    2900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-transistor:PTDC114EU Q?
+U 1 1 5BD70003
+P 12050 2350
+F 0 "Q?" H 12278 2396 50  0000 L CNN
+F 1 "PTDC114EU" H 12278 2305 50  0000 L CNN
+F 2 "SOT:SOT323-3" H 12050 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTC114E_SER.pdf" H 12050 1925 50  0001 C CNN
+F 4 "Nexperia Semiconductor" H 12050 1825 60  0001 C CNN "Manufacturer"
+F 5 "PTDC114EU" H 12050 1725 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 12050 1625 60  0001 C CNN "Distributor"
+F 7 "8737045" H 12050 1525 60  0001 C CNN "Distributor Code"
+F 8 "0.155" H 12050 1425 60  0001 C CNN "Price €"
+F 9 "RS Components S.p.a." H 12050 1225 50  0001 C CNN "Distributor2"
+F 10 "518-2725" H 12050 1125 50  0001 C CNN "Distributor2 Code"
+	1    12050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-transistor:PTDC114EU Q?
+U 1 1 5BD700B9
+P 10550 2350
+F 0 "Q?" H 10778 2396 50  0000 L CNN
+F 1 "PTDC114EU" H 10778 2305 50  0000 L CNN
+F 2 "SOT:SOT323-3" H 10550 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PDTC114E_SER.pdf" H 10550 1925 50  0001 C CNN
+F 4 "Nexperia Semiconductor" H 10550 1825 60  0001 C CNN "Manufacturer"
+F 5 "PTDC114EU" H 10550 1725 60  0001 C CNN "Part Number"
+F 6 "Farnell Italia S.r.l." H 10550 1625 60  0001 C CNN "Distributor"
+F 7 "8737045" H 10550 1525 60  0001 C CNN "Distributor Code"
+F 8 "0.155" H 10550 1425 60  0001 C CNN "Price €"
+F 9 "RS Components S.p.a." H 10550 1225 50  0001 C CNN "Distributor2"
+F 10 "518-2725" H 10550 1125 50  0001 C CNN "Distributor2 Code"
+	1    10550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:NANOSIM-WURTH-693043020611 P?
+U 1 1 5BD706CC
+P 13450 8350
+F 0 "P?" H 13628 8401 50  0000 L CNN
+F 1 "NANOSIM" H 13628 8310 50  0000 L CNN
+F 2 "CONNECTOR:NANOSIM-WURTH-693043020611" H 13450 6850 60  0001 C CNN
+F 3 "https://katalog.we-online.de/em/datasheet/693043020611.pdf" H 13450 7850 60  0001 C CNN
+F 4 "Wurth Elektronik GmbH" H 13450 7750 60  0001 C CNN "Manufacturer"
+F 5 "693043020611" H 13450 7650 60  0001 C CNN "Part Number"
+F 6 "Wurth Elektronik GmbH" H 13450 7550 60  0001 C CNN "Distributor"
+F 7 "693043020611" H 13450 7450 60  0001 C CNN "Distributor Code"
+F 8 "1.76" H 13450 7350 60  0001 C CNN "Price €"
+F 9 "Farnell Italia S.r.l." H 13450 7250 60  0001 C CNN "Distributor2"
+F 10 "2470827 " H 13450 7150 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 13450 7050 60  0001 C CNN "Distributor3"
+F 12 "-" H 13450 6950 60  0001 C CNN "Distributor3 Code"
+	1    13450 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:ESIM-THINGSMOBILE P?
+U 1 1 5BD709A2
+P 13450 9500
+F 0 "P?" H 13627 9551 50  0000 L CNN
+F 1 "ESIM" H 13627 9460 50  0000 L CNN
+F 2 "CONNECTOR:ESIM-GENERIC" H 13450 8050 60  0001 C CNN
+F 3 "https://www.thingsmobile.com" H 13450 9050 60  0001 C CNN
+F 4 "Things Mobile Srl" H 13450 8950 60  0001 C CNN "Manufacturer"
+F 5 "-" H 13450 8850 60  0001 C CNN "Part Number"
+F 6 "Things Mobile Srl" H 13450 8750 60  0001 C CNN "Distributor"
+F 7 "-" H 13450 8650 60  0001 C CNN "Distributor Code"
+F 8 "3.00" H 13450 8550 60  0001 C CNN "Price €"
+F 9 "-" H 13450 8450 60  0001 C CNN "Distributor2"
+F 10 "-" H 13450 8350 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 13450 8250 60  0001 C CNN "Distributor3"
+F 12 "-" H 13450 8150 60  0001 C CNN "Distributor3 Code"
+	1    13450 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:CONN_9X1 P?
+U 1 1 5BD7117E
+P 2350 2050
+F 0 "P?" H 2427 2101 50  0000 L CNN
+F 1 "CONN_9X1" H 2427 2010 50  0000 L CNN
+F 2 "" H 2725 2050 60  0001 C CNN
+F 3 "" H 2725 2050 60  0001 C CNN
+F 4 "-" H 2350 1750 60  0001 C CNN "Manufacturer"
+F 5 "-" H 2350 1650 60  0001 C CNN "Part Number"
+F 6 "-" H 2350 1550 60  0001 C CNN "Distributor"
+F 7 "-" H 2350 1400 60  0001 C CNN "Distributor Code"
+F 8 "-" H 2350 1300 60  0001 C CNN "Price €"
+F 9 "-" H 2350 1200 60  0001 C CNN "Distributor2"
+F 10 "-" H 2350 1100 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 2350 1000 60  0001 C CNN "Distributor3"
+F 12 "-" H 2350 900 60  0001 C CNN "Distributor3 Code"
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L nowae-connector:CONN_9X1 P?
+U 1 1 5BD712E0
+P 4250 2050
+F 0 "P?" H 4700 2100 50  0000 C CNN
+F 1 "CONN_9X1" H 4550 2000 50  0000 C CNN
+F 2 "" H 4625 2050 60  0001 C CNN
+F 3 "" H 4625 2050 60  0001 C CNN
+F 4 "-" H 4250 1750 60  0001 C CNN "Manufacturer"
+F 5 "-" H 4250 1650 60  0001 C CNN "Part Number"
+F 6 "-" H 4250 1550 60  0001 C CNN "Distributor"
+F 7 "-" H 4250 1400 60  0001 C CNN "Distributor Code"
+F 8 "-" H 4250 1300 60  0001 C CNN "Price €"
+F 9 "-" H 4250 1200 60  0001 C CNN "Distributor2"
+F 10 "-" H 4250 1100 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 4250 1000 60  0001 C CNN "Distributor3"
+F 12 "-" H 4250 900 60  0001 C CNN "Distributor3 Code"
+	1    4250 2050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4650 4900 4800
+$Comp
+L nowae-resistor:RESISTOR R?
+U 1 1 5BDA7CBB
+P 4500 4800
+F 0 "R?" V 4600 4750 50  0000 L CNN
+F 1 "100m" V 4500 4700 50  0000 L CNN
+F 2 "RESISTOR:RESISTOR-1206" V 4430 4800 30  0001 C CNN
+F 3 "" H 4500 4800 30  0001 C CNN
+F 4 "TE Connectivity" H 4500 4450 60  0001 C CNN "Manufacturer"
+F 5 "RL73H2BR10FTD" H 4500 4350 60  0001 C CNN "Part Number"
+F 6 "RS Components S.p.a." H 4500 4250 60  0001 C CNN "Distributor"
+F 7 "807-7196" H 4500 4150 60  0001 C CNN "Distributor Code"
+F 8 "0.097" H 4500 4050 60  0001 C CNN "Price €"
+F 9 "-" H 4500 3950 60  0001 C CNN "Distributor2"
+F 10 "-" H 4500 3850 60  0001 C CNN "Distributor2 Code"
+F 11 "-" H 4500 3750 60  0001 C CNN "Distributor3"
+F 12 "-" H 4500 3650 60  0001 C CNN "Distributor3 Code"
+	1    4500 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4800 4150 4800
+Connection ~ 4150 4800
+Wire Wire Line
+	4750 4800 4900 4800
 Wire Bus Line
 	8500 3200 11500 3200
 Wire Bus Line
@@ -3660,4 +3679,7 @@ Wire Bus Line
 	5750 1050 5750 7700
 Wire Bus Line
 	8500 3200 8500 7700
+Connection ~ 4900 4800
+Wire Wire Line
+	4900 4800 4900 5250
 $EndSCHEMATC
