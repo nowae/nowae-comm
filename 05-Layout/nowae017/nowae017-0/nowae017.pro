@@ -1,4 +1,4 @@
-update=gio 06 set 2018 14:32:05 CEST
+update=gio 18 ott 2018 17:07:48 CEST
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=${KINOWAE}/nowae.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
