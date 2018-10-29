@@ -1361,11 +1361,11 @@ Wire Wire Line
 Text Label 5900 4000 0    50   ~ 0
 UART_RXD_EXT
 Text Label 5900 4100 0    50   ~ 0
-UART_RXD_EXT
+UART_TXD_EXT
 Text Label 5900 4200 0    50   ~ 0
-UART_RXD_EXT
+UART_CTS_EXT
 Text Label 5900 4300 0    50   ~ 0
-UART_RXD_EXT
+UART_RTS_EXT
 Wire Wire Line
 	7650 4400 8400 4400
 Wire Wire Line
