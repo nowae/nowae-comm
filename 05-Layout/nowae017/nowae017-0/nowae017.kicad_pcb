@@ -44,7 +44,7 @@
     (user_trace_width 0.7)
     (user_trace_width 1)
     (trace_clearance 0.15)
-    (zone_clearance 0.508)
+    (zone_clearance 0.2)
     (zone_45_only no)
     (trace_min 0.15)
     (segment_width 0.2)
@@ -907,7 +907,7 @@
   )
 
   (module RESISTOR:RESISTOR-0603 (layer F.Cu) (tedit 5A030436) (tstamp 5BD0DF93)
-    (at 151.2 103.8)
+    (at 151.35 104.3)
     (descr "SMD 0603")
     (tags "0603 SM0603")
     (path /5C0C1F5E)
@@ -2765,4 +2765,19 @@
   (segment (start 143.49 99.16) (end 145.3 97.35) (width 0.15) (layer In1.Cu) (net 61))
   (segment (start 158.154 85.354) (end 158.529587 85.354) (width 0.2) (layer F.Cu) (net 65))
 
+  (zone (net 12) (net_name +VIN) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.2))
+    (min_thickness 0.2)
+    (fill yes (arc_segments 16) (thermal_gap 0.1) (thermal_bridge_width 0.1))
+    (polygon
+      (pts
+        (xy 147.75 100.85) (xy 151 100.85) (xy 151 105.1) (xy 147.65 105.15) (xy 147.65 100.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 150.9 104.7) (xy 147.75 104.7) (xy 147.75 100.95) (xy 150.9 100.95)
+      )
+    )
+  )
 )
